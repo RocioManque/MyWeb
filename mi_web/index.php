@@ -146,7 +146,7 @@ if ($_POST['submit']) {
 if (mail($para, $titulo, $msjCorreo, $header)) {
 echo "<script language='javascript'>
 alert('Mensaje enviado, muchas gracias.');
-window.location.href = 'http://TUSITIOWEB.COM';
+window.location.href = 'https://litzhweb.com/';
 </script>";
 } else {
 echo 'Falló el envio';
